@@ -1,10 +1,12 @@
 development:
+  host: localhost
   adapter: postgresql
   database: iot_printer_front_development
   pool: 5
   timeout: 5000
 
 test:
+  host: localhost
   adapter: postgresql
   database: iot_printer_front_test
   pool: 5

@@ -8,7 +8,7 @@ gem 'omniauth'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-twitter'
 
-gem 'twitter'
+gem 'twitter', '~> 4.6.2'
 
 gem 'haml-rails'
 
@@ -28,7 +28,7 @@ group :test do
   gem 'factory_girl_rails'
   gem 'guard-rspec'
   gem 'webmock', "~> 1.8.3"
-  gem 'growl' 
+  gem 'growl'
   gem 'capybara'
   gem 'launchy'
 end
